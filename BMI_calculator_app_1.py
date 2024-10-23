@@ -14,8 +14,7 @@ def calculate_bmi():
 
         if height > 0:  
             bmi = weight / (height ** 2)  # BMI formula
-            st.write(f"Your BMI is: {bmi:.2f}")
-            
+            st.write_stream(f"Your BMI is: {bmi:.2f}")
             if bmi < 18.5:
                 st.write("You are underweight.")
             elif 18.5 <= bmi < 24.9:
