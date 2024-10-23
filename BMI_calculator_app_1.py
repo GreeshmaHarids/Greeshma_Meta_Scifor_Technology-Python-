@@ -24,7 +24,7 @@ def calculate_bmi():
             else:
                 st.write("You are obese.")
             
-            st.write_stream("**Keep tracking your BMI and stay healthy!**")
+            st.write("**Keep tracking your BMI and stay healthy!**")
         else:
             st.write("Height must be greater than zero.")
     except ValueError:
